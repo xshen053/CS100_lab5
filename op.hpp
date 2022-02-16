@@ -5,9 +5,18 @@
 
 class Op : public Base {
     public:
-        Op(double value) : Base() { }
-        virtual double evaluate() { return 0.0; }
-        virtual std::string stringify() { return ""; }
+        Op(double value) : Base() {
+        num = value;
+	val = std::to_string(value);
+	val.erase(val.find_last_not_of('0') + 1, std::string::npos);
+        val.erase(val.find_last_not_of('.') + 1, std::string::npos);
+
+	}
+        virtual double evaluate() { return num; }
+        virtual std::string stringify() { return val; }
+    private:
+	std::string val;
+	double num;
 };
 
 #endif //__OP_HPP__
