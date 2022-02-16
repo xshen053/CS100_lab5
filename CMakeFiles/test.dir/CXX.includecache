@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/Rand.hpp
+base.hpp
+/home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/base.hpp
+string
+-
+iostream
+-
+stdlib.h
+-
+time.h
+-
+
+/home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/Rand_test.hpp
+gtest/gtest.h
+/home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/gtest/gtest.h
+Rand.hpp
+/home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/Rand.hpp
+
 /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/base.hpp
 string
 -
@@ -25,6 +43,8 @@ gtest/gtest.h
 /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/gtest/gtest.h
 op_test.hpp
 /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/op_test.hpp
+Rand_test.hpp
+/home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/Rand_test.hpp
 
 googletest/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
