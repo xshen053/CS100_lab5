@@ -4,6 +4,8 @@
 CMakeFiles/test.dir/unit_test.cpp.o: Rand.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: Rand_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: base.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: mult.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: mult_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: op.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: op_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: unit_test.cpp
