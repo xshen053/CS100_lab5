@@ -20,4 +20,11 @@ TEST(DivTest, DivEvaluateWithMult) {
     EXPECT_EQ(test->evaluate(), 4);
 }
 
+TEST(DivTest, DivEvaluateOneDividesZero) {
+    Op* op1 = new Op(1);
+    Op* op2 = new Op(0);
+    Div* test = new Div(op1, op2);
+    EXPECT_NE(test->evaluate(), 1);
+}
+
 #endif

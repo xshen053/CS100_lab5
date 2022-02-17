@@ -4,6 +4,8 @@
 CMakeFiles/test.dir/unit_test.cpp.o
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/Rand.hpp
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/Rand_test.hpp
+ /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/add.hpp
+ /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/addtest.hpp
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/base.hpp
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/div.hpp
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/div_test.hpp
@@ -11,6 +13,10 @@ CMakeFiles/test.dir/unit_test.cpp.o
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/mult_test.hpp
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/op.hpp
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/op_test.hpp
+ /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/pow.hpp
+ /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/powtest.hpp
+ /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/sub.hpp
+ /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/subtest.hpp
  /home/mikeshen/lab-05---composite-pattern-xshen053-xiaxi-shen-hyu146-han-yu-1/unit_test.cpp
  googletest/googletest/include/gtest/gtest-death-test.h
  googletest/googletest/include/gtest/gtest-matchers.h
