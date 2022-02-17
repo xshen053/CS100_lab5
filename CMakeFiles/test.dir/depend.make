@@ -3,6 +3,8 @@
 
 CMakeFiles/test.dir/unit_test.cpp.o: Rand.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: Rand_test.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: add.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: addtest.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: base.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: div.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: div_test.hpp
@@ -10,6 +12,10 @@ CMakeFiles/test.dir/unit_test.cpp.o: mult.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: mult_test.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: op.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: op_test.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: pow.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: powtest.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: sub.hpp
+CMakeFiles/test.dir/unit_test.cpp.o: subtest.hpp
 CMakeFiles/test.dir/unit_test.cpp.o: unit_test.cpp
 CMakeFiles/test.dir/unit_test.cpp.o: googletest/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/test.dir/unit_test.cpp.o: googletest/googletest/include/gtest/gtest-matchers.h
