@@ -4,14 +4,14 @@
 #include <iostream>
 using namespace std;
 
-class SUB:public Base{
+class Sub:public Base{
 	private:
 		double r;
 		double l;
 		string rstr;
 		string lstr;
 	public:
-		Add(Base* left, Base* right){
+		Sub(Base* left, Base* right){
 			l=left->evaluate();
 			r=right->evaluate();
 			rstr=left->stringify();
@@ -20,5 +20,7 @@ class SUB:public Base{
 		double evaluate(){return l - r;}
 		string stringify(){return "("+ rstr + " - " + lstr + ")";}
 };
+
+
 #endif //_SUB_HPP_
 
