@@ -2,13 +2,14 @@
 #define _POW_HPP_
 #include "base.hpp"
 #include <iostream>
+#include <string>
 class Pow:public Base{
 	private:
 		double l;
 		double r;
-		string lstr;
-		string rstr;
-		string fin;
+		std::string lstr;
+            	std::string rstr;
+		std::string fin;
 	public:
 		Pow(Base* left, Base* right):Base(){
 			l=left->evaluate();
@@ -23,6 +24,6 @@ class Pow:public Base{
 			}
 			return a;
 		}
-		string stringify(){return"(" + lstr + " ** " + rstr  + ")";}
+		std::string stringify(){return"(" + lstr + " ** " + rstr  + ")";}
 };
 #endif //_POW_HPP_
