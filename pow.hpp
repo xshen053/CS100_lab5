@@ -23,6 +23,6 @@ class Pow:public Base{
 			}
 			return a;
 		}
-		string stringify(){return lstr+"**"+rstr;}
+		string stringify(){return"(" + lstr + " ** " + rstr ")";}
 };
 #endif //_POW_HPP_

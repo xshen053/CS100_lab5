@@ -17,7 +17,7 @@ class Add:public Base{
 			rstr=left->stringify();
 			lstr=right->stringify();
 		}
-		double evaluate(){return l+r;}
-		string stringify(){return rstr+"+"+lstr;}
+		double evaluate(){return l + r;}
+		string stringify(){return"(" + rstr + " + " + lstr + ")";}
 };
 #endif //_ADD_HPP_

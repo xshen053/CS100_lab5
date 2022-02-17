@@ -7,5 +7,5 @@ TEST(TestAdd, Evaluateadd){
 	Base* right=new Op(8);
 	Add* test=new Add(left,right);
 	EXPECT_EQ(test->evaluate(),15);
-	EXPECT_EQ(test->stringify(),"7+8");
+	EXPECT_EQ(test->stringify(),"( 7 + 8 )");
 }

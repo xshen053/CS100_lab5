@@ -17,8 +17,8 @@ class SUB:public Base{
 			rstr=left->stringify();
 			lstr=right->stringify();
 		}
-		double evaluate(){return l-r;}
-		string stringify(){return rstr+"-"+lstr;}
+		double evaluate(){return l - r;}
+		string stringify(){return "("+ rstr + " - " + lstr + ")";}
 };
 #endif //_SUB_HPP_
 
